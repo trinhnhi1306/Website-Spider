@@ -167,24 +167,12 @@ function toSeoUrl(url) {
             continue;
         }
 
-        // console.log("\n\n>>=========================================<<")
-        // console.log(i+"."+iTitle);
-        // console.log(iContent);
-        // console.log(iCategory);
-        // console.log("Cover Photo : " + iCoverPhotos[0].attribs.src);
-        // console.log("Photo : " + iPhotos.length);
-        // console.log("URL : " + chaperLink);
-        // console.log("SEO : " +iSeo);
-        // console.log("Gallery : [\n")
-
         for(let j = 0 ;j < iPhotos.length;j++)
         {
-          //console.log("\n " + iPhotos[j].attribs.src);
+         
           iGallery.push(iPhotos[j].attribs.src);
         }
-        //console.log("\n]");
         
-
         data.push
         ({
             "title":iTitle,
