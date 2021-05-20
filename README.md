@@ -35,4 +35,4 @@ To use,remember command "npm install" for all dependencies I used.
 
 In addition, I used "node-cron" to schedue this task.You can read for more here : https://www.npmjs.com/package/node-cron .
 
-Adjust time for you !! Embrace the vision
+Thank for reading ^^
