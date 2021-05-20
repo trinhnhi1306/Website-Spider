@@ -3,13 +3,14 @@ A function helps us to collect data from a specific website
 
 First of all, I'm thankful for Nguyen Dang Hau (@ngdanghau) - he is my best friend , my great teacher.And he helped me to do and learn many fabulous things 
 about this topic.
-You can reference his works from here : https://github.com/ngdanghau
+You can reference his works from here : https://github.com/ngdanghau.
 Once again, I'm so estasy because he taught me to complete this function and more.
+
 
 Now , make it short , this website spider was written to collect data from "tinhte.vn" - one of the big technology website in Vietnam.
 You can crawl any website if you can.However,you need some knowledge about jQuery to custom code for this purpose.
 
-All collected record will be store in "data" array and store into "data.json" file
+All collected record will be store in "data" array and store into "data.json" file.
 
 With regex and conditions ,we can get posts without 
  * (1)the phase "home_latest_thread_subbrand_logo" exists in the URL 
@@ -27,3 +28,7 @@ Result we get include
  * (6) Gallery - all relative photos
  * (7) Date - Default: Date.Now
  * (8) Description
+ 
+To use,remember command "npm install" for all dependencies I used.
+In addition, I used "node-cron" to schedue this task.You can read for more here : https://www.npmjs.com/package/node-cron .
+Adjust time for you !! Embrace the vision
