@@ -3,7 +3,9 @@ A function helps us to collect data from a specific website
 
 First of all, I'm thankful for Nguyen Dang Hau (@ngdanghau) - he is my best friend , my great teacher.And he helped me to do and learn many fabulous things 
 about this topic.
+
 You can reference his works from here : https://github.com/ngdanghau.
+
 Once again, I'm so estasy because he taught me to complete this function and more.
 
 
@@ -30,5 +32,7 @@ Result we get include
  * (8) Description
  
 To use,remember command "npm install" for all dependencies I used.
+
 In addition, I used "node-cron" to schedue this task.You can read for more here : https://www.npmjs.com/package/node-cron .
+
 Adjust time for you !! Embrace the vision
